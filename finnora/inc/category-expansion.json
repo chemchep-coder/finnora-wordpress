@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "holly-zip-pouch",
+    "name": "Holly Zip Pouch",
+    "cat": "accessories",
+    "material": "Woven polyester canvas",
+    "price": 18,
+    "subject": "a small flat zippered pouch with red zipper, forest-green body, original cream holly and little red-berry printed pattern",
+    "stage": "upright on a neat wooden desk"
+  },
+  {
+    "slug": "snowday-sling-bag",
+    "name": "Snowday Crossbody Sling",
+    "cat": "accessories",
+    "material": "Nylon twill",
+    "price": 34,
+    "subject": "a forest-green nylon crossbody sling bag, adjustable strap, zipper pocket, original small white snowboarding reindeer graphic on front",
+    "stage": "upright on a bench with strap naturally draped"
+  },
+  {
+    "slug": "gift-run-drawstring-bag",
+    "name": "Gift Run Drawstring Backpack",
+    "cat": "accessories",
+    "material": "Polyester weave",
+    "price": 26,
+    "subject": "a Christmas-red drawstring backpack, white braided cords, original cute Santa on a scooter delivering presents printed on front",
+    "stage": "hanging naturally from a simple wall peg"
+  },
+  {
+    "slug": "starglow-steel-tumbler",
+    "name": "Starglow Steel Tumbler",
+    "cat": "drinkware",
+    "material": "Coated stainless steel",
+    "price": 29,
+    "subject": "a white stainless travel tumbler with forest-green lid and original red-and-green celestial holiday stars print",
+    "stage": "on a cozy kitchen counter"
+  },
+  {
+    "slug": "ribbon-glass-cup",
+    "name": "Ribbon Glass Cup",
+    "cat": "drinkware",
+    "material": "Printed glass",
+    "price": 22,
+    "subject": "a transparent can-shaped drinking glass with bamboo lid and clear reusable straw, sparse original red ribbon bow and snowflake print",
+    "stage": "on a kitchen table with soft window light"
+  },
+  {
+    "slug": "campfire-enamel-mug",
+    "name": "Campfire Enamel Mug",
+    "cat": "drinkware",
+    "material": "Enamel-coated steel",
+    "price": 20,
+    "subject": "a white enamel camping mug with forest-green rim, original red fox curled near tiny pine forest illustration",
+    "stage": "on a wooden cabin table"
+  },
+  {
+    "slug": "fireside-fleece-throw",
+    "name": "Fireside Fleece Throw",
+    "cat": "home",
+    "material": "Polyester fleece",
+    "price": 48,
+    "subject": "a soft forest-green fleece throw blanket with original quiet white woodland animal and snow pattern, red edge trim, realistic fluffy texture",
+    "stage": "draped over the arm of a comfortable neutral armchair"
+  },
+  {
+    "slug": "welcome-winter-doormat",
+    "name": "Welcome Winter Doormat",
+    "cat": "home",
+    "material": "Polyester face / rubber-back concept",
+    "price": 32,
+    "subject": "a forest-green rectangular doormat with simple white WELCOME WINTER typography, red bow and tiny snowflakes",
+    "stage": "flat on the floor at a tasteful home entrance"
+  },
+  {
+    "slug": "moonlit-wall-clock",
+    "name": "Moonlit Winter Wall Clock",
+    "cat": "home",
+    "material": "Printed clock-face concept",
+    "price": 38,
+    "subject": "a round wall clock with white outer rim, clear white numerals on forest-green face, original small moonlit pine scene and red cardinal illustration, readable uncluttered clock hands",
+    "stage": "mounted on a quiet neutral living-room wall"
+  },
+  {
+    "slug": "northern-lights-canvas",
+    "name": "Northern Lights Canvas",
+    "cat": "art",
+    "material": "Printed canvas",
+    "price": 46,
+    "subject": "a single gallery-wrapped square canvas print showing original painterly northern lights above pine forest and a small snowy cabin, forest-green red and ivory winter art",
+    "stage": "hung on a neutral wall above a narrow console"
+  },
+  {
+    "slug": "santa-afterhours-poster",
+    "name": "Santa Afterhours Poster",
+    "cat": "art",
+    "material": "Matte art paper",
+    "price": 24,
+    "subject": "a large unframed matte paper poster with original witty stylish Santa in sunglasses holding hot chocolate, forest-green and Christmas-red graphic art, no wording",
+    "stage": "secured flat on a studio wall with discreet clips"
+  },
+  {
+    "slug": "winter-botanical-hanger",
+    "name": "Winter Botanical Hanging Print",
+    "cat": "art",
+    "material": "Art paper / wood hanger concept",
+    "price": 30,
+    "subject": "a vertical botanical art print held by slim wooden magnetic poster rails, original detailed pine cones holly and red winter berries on ivory paper",
+    "stage": "hanging flat on a warm neutral wall"
+  },
+  {
+    "slug": "snowquest-desk-mat",
+    "name": "Snowquest Desk Mat",
+    "cat": "tech",
+    "material": "Polyester surface / rubber-base concept",
+    "price": 26,
+    "subject": "a rectangular extended desk mouse mat with original panoramic winter village, tiny snowball-playing characters, dark forest-green background and red accents",
+    "stage": "laid flat under a partial unbranded keyboard on a tidy desk"
+  },
+  {
+    "slug": "midnight-laptop-sleeve",
+    "name": "Midnight Laptop Sleeve",
+    "cat": "tech",
+    "material": "Neoprene-style sleeve concept",
+    "price": 36,
+    "subject": "a slim zippered forest-green laptop sleeve with original constellation and small red ribbon motifs, full sleeve visible, no device brand",
+    "stage": "resting upright on a desk beside a closed unbranded laptop"
+  },
+  {
+    "slug": "snowcat-earbud-case",
+    "name": "Snowcat Earbud Case",
+    "cat": "tech",
+    "material": "Printable rigid protective case concept",
+    "price": 18,
+    "subject": "a compact glossy white wireless-earbud charging-case cover with original sleeping snowcat wearing tiny red scarf, small green carabiner",
+    "stage": "on a neat bedside table"
+  },
+  {
+    "slug": "winter-wishes-card-set",
+    "name": "Winter Wishes Greeting Cards",
+    "cat": "stationery",
+    "material": "Matte card stock",
+    "price": 16,
+    "subject": "a coordinated set of three folding Christmas greeting cards with original red cardinal, woodland fox, and gingerbread café illustrations, forest-green red ivory palette",
+    "stage": "arranged neatly with plain envelopes on a writing desk"
+  },
+  {
+    "slug": "little-joy-desk-calendar",
+    "name": "Little Joy Desk Calendar",
+    "cat": "stationery",
+    "material": "Paper / wire-bound concept",
+    "price": 24,
+    "subject": "a compact standing spiral-bound desk calendar with original cozy December winter village art, tidy understated calendar grid with tiny dates, no large external caption",
+    "stage": "standing on a writing desk"
+  },
+  {
+    "slug": "snowbreak-wideleg-shorts",
+    "name": "Snowbreak Wide-Leg Shorts",
+    "cat": "bottoms",
+    "material": "Nylon ripstop",
+    "price": 38,
+    "subject": "unisex relaxed wide-leg knee-length stone ripstop shorts with utility pockets, tiny original forest-green snow-club badge",
+    "stage": "hanging fully visible from a wooden clip hanger against studio wall"
+  },
+  {
+    "slug": "midnight-satin-pants",
+    "name": "Midnight Satin Pants",
+    "cat": "bottoms",
+    "material": "Polyester satin",
+    "price": 52,
+    "subject": "unisex wide-leg forest-green satin trousers with drawstring waist, subtle original tiny ivory stars and ribbon print",
+    "stage": "hanging fully visible from a wooden clip hanger against studio wall"
+  },
+  {
+    "slug": "holiday-hoops-tank",
+    "name": "Holiday Hoops Jersey Tank",
+    "cat": "jerseys",
+    "material": "Polyester basketball mesh",
+    "price": 35,
+    "subject": "unisex sleeveless Christmas-red basketball jersey tank, perforated sports mesh texture, white contrast trim and original white 12 plus small snowflake graphic, no team logos",
+    "stage": "on a wooden clothes hanger against studio wall"
+  },
+  {
+    "slug": "northstar-baseball-jersey",
+    "name": "Northstar Baseball Jersey",
+    "cat": "jerseys",
+    "material": "Polyester interlock",
+    "price": 44,
+    "subject": "unisex short-sleeve white button-front baseball jersey with forest-green piping and original tiny red Northstar snow motif on chest, no team logos",
+    "stage": "on a wooden clothes hanger against studio wall"
+  },
+  {
+    "slug": "snowleague-hockey-jersey",
+    "name": "Snowleague Hockey Jersey",
+    "cat": "jerseys",
+    "material": "Heavy polyester sports mesh",
+    "price": 49,
+    "subject": "unisex oversized forest-green hockey-inspired jersey, red and white broad sleeve stripes, original playful polar bear winter emblem, no team logos",
+    "stage": "on a wooden clothes hanger against studio wall"
+  },
+  {
+    "slug": "cloud-fleece-zip-vest",
+    "name": "Cloud Fleece Zip Vest",
+    "cat": "layers",
+    "material": "Polyester fleece",
+    "price": 54,
+    "subject": "unisex ivory plush fleece zip-front sleeveless vest with forest-green chest panel and tiny original red winter star print patch",
+    "stage": "on a wooden clothes hanger against studio wall"
+  },
+  {
+    "slug": "winterwave-windbreaker",
+    "name": "Winterwave Windbreaker",
+    "cat": "layers",
+    "material": "Lightweight nylon shell",
+    "price": 62,
+    "subject": "unisex lightweight forest-green windbreaker with white shoulder panels and red zipper, original minimal white snow-wave chest graphic, realistic crinkled nylon texture",
+    "stage": "on a wooden clothes hanger against studio wall"
+  },
+  {
+    "slug": "ribbon-halter-top",
+    "name": "Ribbon Halter Top",
+    "cat": "fashion-tops",
+    "material": "Stretch rib-knit jersey",
+    "price": 29,
+    "subject": "women’s fitted Christmas-red sleeveless halter crop top, visible fine rib knit, small original ivory bow and tiny stars print at chest",
+    "stage": "on a simple appropriate padded clothes hanger against studio wall"
+  }
+]

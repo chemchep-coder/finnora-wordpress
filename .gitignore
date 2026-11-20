@@ -1,0 +1,26 @@
+# WordPress runtime and secrets do not belong in a public theme repository.
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-content/uploads/
+uploads/
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+auth.json
+credentials.json
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+*.zip
+*.bundle
+.idea/
+.vscode/

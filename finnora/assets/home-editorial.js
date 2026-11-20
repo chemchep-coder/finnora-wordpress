@@ -1,0 +1,1 @@
+(() => {const input=document.querySelector('[data-fin-home-name]');const output=document.querySelector('[data-fin-home-name-output]');if(input&&output)input.addEventListener('input',()=>{output.textContent=input.value.trim()||'YOUR NAME';});})();

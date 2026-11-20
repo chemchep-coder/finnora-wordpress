@@ -1,0 +1,10 @@
+<?php
+defined('ABSPATH')||exit;
+function fin_pod_2026_slugs(){return ['colour-tee','studio-sweat','canvas-tote','paint-mug','art-poster','art-cushion','phone-case','studio-notebook','sticker-sheet'];}
+function fin_pod_2026_url($slug,$kind='scene'){if(!in_array($slug,fin_pod_2026_slugs(),true))return '';return get_template_directory_uri().'/assets/pod-2026/'.$slug.'-'.$kind.'.webp';}
+function fin_pod_2026_attachment_map(){static $map=null;if($map!==null)return $map;$map=[];if(!function_exists('wc_get_product_id_by_sku'))return $map;foreach(fin_pod_2026_slugs() as $slug){$p=wc_get_product(wc_get_product_id_by_sku('FIN-'.$slug));if($p&&$p->get_image_id())$map[$p->get_image_id()]=$slug;}return $map;}
+add_filter('wp_get_attachment_image_src',function($image,$id){$map=fin_pod_2026_attachment_map();return isset($map[$id])?[fin_pod_2026_url($map[$id]),900,900,false]:$image;},20,2);
+add_filter('wp_get_attachment_url',function($url,$id){$map=fin_pod_2026_attachment_map();return isset($map[$id])?fin_pod_2026_url($map[$id]):$url;},20,2);
+add_filter('wp_calculate_image_srcset',function($sources,$size,$src,$meta,$id){return isset(fin_pod_2026_attachment_map()[$id])?false:$sources;},20,5);
+add_filter('wp_get_attachment_image_attributes',function($attributes,$attachment){if(isset(fin_pod_2026_attachment_map()[$attachment->ID])){unset($attributes['srcset'],$attributes['sizes']);$attributes['alt']=get_the_title($attachment->ID).' — AI-generated illustrative product mockup';}return $attributes;},20,2);
+add_action('woocommerce_after_single_product_summary',function(){global $product;if(!$product)return;$slug=preg_replace('/^FIN-/','',$product->get_sku());if(!in_array($slug,fin_pod_2026_slugs(),true))return;echo '<section class="fin-clean-product-view"><details><summary>View clean product mockup</summary><img src="'.esc_url(fin_pod_2026_url($slug,'detail')).'" alt="'.esc_attr($product->get_name().' — clean illustrative mockup').'" width="900" height="900" loading="lazy"><p>AI-generated demo imagery. Final materials, print placement and colors need physical sample checks.</p></details></section>';},4);

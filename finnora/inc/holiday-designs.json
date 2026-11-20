@@ -1,0 +1,398 @@
+[
+  {
+    "slug": "santa-out-of-office",
+    "name": "Santa, Out of Office",
+    "mood": "santa-humor",
+    "moodName": "Funny Santa",
+    "description": "A lighthearted Santa taking a well-earned break. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "funny-quotes",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "colour-tee",
+      "paint-mug",
+      "phone-case"
+    ]
+  },
+  {
+    "slug": "santa-recharge",
+    "name": "Santa Needs a Recharge",
+    "mood": "santa-humor",
+    "moodName": "Funny Santa",
+    "description": "A sleepy Santa and a mischievous reindeer: a gentle holiday joke. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "funny-quotes",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "studio-sweat",
+      "art-poster",
+      "studio-notebook"
+    ]
+  },
+  {
+    "slug": "reindeer-rhythm",
+    "name": "Reindeer Rhythm",
+    "mood": "winter-nature",
+    "moodName": "Winter Nature",
+    "description": "A playful reindeer DJ brings joyful energy to winter. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "pets-animals",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "canvas-tote",
+      "art-cushion",
+      "sticker-sheet"
+    ]
+  },
+  {
+    "slug": "woodland-wishes",
+    "name": "Woodland Wishes",
+    "mood": "winter-nature",
+    "moodName": "Winter Nature",
+    "description": "Forest friends, evergreen branches and quiet winter companionship. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "pets-animals",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "paint-mug",
+      "phone-case",
+      "colour-tee"
+    ]
+  },
+  {
+    "slug": "family-baking-night",
+    "name": "Family Baking Night",
+    "mood": "family-memories",
+    "moodName": "Family & Memories",
+    "description": "An illustrated family making gingerbread and new memories. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-poster",
+      "studio-notebook",
+      "studio-sweat"
+    ]
+  },
+  {
+    "slug": "home-for-the-holidays",
+    "name": "Home for the Holidays",
+    "mood": "family-memories",
+    "moodName": "Family & Memories",
+    "description": "A fictional illustrated family celebrates being together. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-cushion",
+      "sticker-sheet",
+      "canvas-tote"
+    ]
+  },
+  {
+    "slug": "snowball-friends",
+    "name": "Snowball Friends",
+    "mood": "holiday-play",
+    "moodName": "Holiday Play",
+    "description": "A friendly snowball game captures the fun of winter afternoons. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "hobbies-identity",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "phone-case",
+      "colour-tee",
+      "paint-mug"
+    ]
+  },
+  {
+    "slug": "skate-together",
+    "name": "Skate Together",
+    "mood": "holiday-play",
+    "moodName": "Holiday Play",
+    "description": "Two friends share the joy of an afternoon on the ice. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "hobbies-identity",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "studio-notebook",
+      "studio-sweat",
+      "art-poster"
+    ]
+  },
+  {
+    "slug": "fireside-tea",
+    "name": "Fireside Tea",
+    "mood": "cozy-moments",
+    "moodName": "Cozy Moments",
+    "description": "Tea by the fire, a sleeping companion and a moment to slow down. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "sticker-sheet",
+      "canvas-tote",
+      "art-cushion"
+    ]
+  },
+  {
+    "slug": "quiet-winter-evening",
+    "name": "A Quiet Winter Evening",
+    "mood": "cozy-moments",
+    "moodName": "Cozy Moments",
+    "description": "Books, pets and a warm drink: a softer kind of Christmas. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "pets-animals",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "colour-tee",
+      "paint-mug",
+      "phone-case"
+    ]
+  },
+  {
+    "slug": "warm-hearts",
+    "name": "Warm Hearts, Bright Days",
+    "mood": "meaningful-words",
+    "moodName": "Meaningful Words",
+    "description": "A hopeful holiday message in original evergreen typography. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "funny-quotes",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "typography"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "studio-sweat",
+      "art-poster",
+      "studio-notebook"
+    ]
+  },
+  {
+    "slug": "together-is-the-gift",
+    "name": "Together Is the Gift",
+    "mood": "meaningful-words",
+    "moodName": "Meaningful Words",
+    "description": "A gentle reminder that time together can be the greatest gift. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "typography"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "canvas-tote",
+      "art-cushion",
+      "sticker-sheet"
+    ]
+  },
+  {
+    "slug": "snow-angel-freedom",
+    "name": "Snow Angel, Free Spirit",
+    "mood": "young-free",
+    "moodName": "Young & Free",
+    "description": "A young adult makes a snow angel: freedom, play and a fresh winter start. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "hobbies-identity",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "paint-mug",
+      "phone-case",
+      "colour-tee"
+    ]
+  },
+  {
+    "slug": "winter-wanderer",
+    "name": "Winter Wanderer",
+    "mood": "young-free",
+    "moodName": "Young & Free",
+    "description": "A young winter explorer finds a little optimism in falling snow. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "hobbies-identity",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-poster",
+      "studio-notebook",
+      "studio-sweat"
+    ]
+  },
+  {
+    "slug": "gift-of-kindness",
+    "name": "The Gift of Kindness",
+    "mood": "giving-kindness",
+    "moodName": "Giving & Kindness",
+    "description": "Friends exchange a thoughtful small gift and a warm smile. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-cushion",
+      "sticker-sheet",
+      "canvas-tote"
+    ]
+  },
+  {
+    "slug": "little-helpers",
+    "name": "Little Acts of Giving",
+    "mood": "giving-kindness",
+    "moodName": "Giving & Kindness",
+    "description": "A family shares the joy of giving holiday gifts to others. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "phone-case",
+      "colour-tee",
+      "paint-mug"
+    ]
+  },
+  {
+    "slug": "marshmallow-mischief",
+    "name": "Marshmallow Mischief",
+    "mood": "original-characters",
+    "moodName": "Original Characters",
+    "description": "An original marshmallow snow creature goes on a candy-cane adventure. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "art-patterns",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "studio-notebook",
+      "studio-sweat",
+      "art-poster"
+    ]
+  },
+  {
+    "slug": "gingerbread-cosmonaut",
+    "name": "Gingerbread Cosmonaut",
+    "mood": "original-characters",
+    "moodName": "Original Characters",
+    "description": "An original cookie astronaut explores a festive little universe. Original illustrative demo artwork; not a production-ready print file.",
+    "topics": [
+      "art-patterns",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "sticker-sheet",
+      "canvas-tote",
+      "art-cushion"
+    ]
+  }
+]

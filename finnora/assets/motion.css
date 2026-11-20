@@ -1,0 +1,14 @@
+/* Small, finite interactions; no autoplay carousel, falling snow, or scroll interception. */
+.fin-bag-feedback{position:fixed;bottom:24px;right:24px;z-index:1000;background:var(--fin-navy);color:var(--fin-cream);border-left:4px solid var(--fin-coral);padding:16px 22px;box-shadow:0 8px 30px #183e3526;font:500 14px/1.5 var(--sans);pointer-events:none;max-width:calc(100vw - 40px)}
+@media(prefers-reduced-motion:no-preference){
+ .button,.woocommerce .button{transition:background-color .18s,color .18s,box-shadow .18s,transform .18s}
+ .button:active,.woocommerce .button:active{transform:translateY(0) scale(.98)}
+ .fin-category-cards img,.product-photo img,.woocommerce ul.products li.product img,.story-photo img{transition:transform .35s cubic-bezier(.2,.7,.3,1)}
+ .fin-category-cards>a:focus-visible img,.product-photo:focus-visible img,.story-photo:focus-visible img{transform:scale(1.025)}
+ .fin-product-guidance details[open]>p{animation:fin-detail-in .2s ease-out}
+ @media(hover:hover) and (pointer:fine){.woocommerce ul.products li.product:hover img,.product-photo:hover img,.story-photo:hover img{transform:scale(1.025)}}
+}
+@keyframes fin-detail-in{from{opacity:.5;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.fin-category-cards img,.product-photo img,.woocommerce ul.products li.product img,.story-photo img,.button,.woocommerce .button{transition:none!important;transform:none!important;animation:none!important}}
+@media(prefers-reduced-motion:no-preference){.hero .button:not(.button-outline):hover::before,.single_add_to_cart_button:hover::before{animation:fin-gift-wiggle .55s ease-in-out 1}}
+@keyframes fin-gift-wiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-10deg)}65%{transform:rotate(8deg)}}

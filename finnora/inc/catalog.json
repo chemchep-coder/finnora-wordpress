@@ -1,0 +1,192 @@
+[
+  {
+    "id": "colour-tee",
+    "en": "Colour Study Tee",
+    "vi": "Colour Study Tee",
+    "cat": "wear",
+    "price": 29,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Paper white"
+    ],
+    "colorsVi": [
+      "Paper white"
+    ],
+    "desc": "Soft cotton jersey. Regular unisex fit. Abstract artwork printed on the front.",
+    "descVi": "Soft cotton jersey. Regular unisex fit. Abstract artwork printed on the front.",
+    "i": 0
+  },
+  {
+    "id": "studio-sweat",
+    "en": "Studio Sweatshirt",
+    "vi": "Studio Sweatshirt",
+    "cat": "wear",
+    "price": 49,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Cobalt blue"
+    ],
+    "colorsVi": [
+      "Cobalt blue"
+    ],
+    "desc": "A relaxed crewneck with a brushed interior and a small botanical art motif.",
+    "descVi": "A relaxed crewneck with a brushed interior and a small botanical art motif.",
+    "i": 1
+  },
+  {
+    "id": "canvas-tote",
+    "en": "Everyday Art Tote",
+    "vi": "Everyday Art Tote",
+    "cat": "accessories",
+    "price": 24,
+    "sizes": [
+      "38 × 42 cm"
+    ],
+    "colors": [
+      "Natural"
+    ],
+    "colorsVi": [
+      "Natural"
+    ],
+    "desc": "An everyday canvas bag with long shoulder straps and a bold colour-study print.",
+    "descVi": "An everyday canvas bag with long shoulder straps and a bold colour-study print.",
+    "i": 2
+  },
+  {
+    "id": "paint-mug",
+    "en": "Morning Palette Mug",
+    "vi": "Morning Palette Mug",
+    "cat": "drinkware",
+    "price": 18,
+    "sizes": [
+      "325 ml",
+      "440 ml"
+    ],
+    "colors": [
+      "White"
+    ],
+    "colorsVi": [
+      "White"
+    ],
+    "desc": "A ceramic mug that brings a little colour to your morning ritual.",
+    "descVi": "A ceramic mug that brings a little colour to your morning ritual.",
+    "i": 3
+  },
+  {
+    "id": "art-poster",
+    "en": "Colour Study Print",
+    "vi": "Colour Study Print",
+    "cat": "art",
+    "price": 22,
+    "sizes": [
+      "A4",
+      "A3",
+      "A2"
+    ],
+    "colors": [
+      "Unframed",
+      "Oak frame"
+    ],
+    "colorsVi": [
+      "Unframed",
+      "Oak frame"
+    ],
+    "desc": "A painterly abstract print for quiet corners and creative spaces. Frame shown for styling.",
+    "descVi": "A painterly abstract print for quiet corners and creative spaces. Frame shown for styling.",
+    "i": 4
+  },
+  {
+    "id": "phone-case",
+    "en": "Pocket Canvas Case",
+    "vi": "Pocket Canvas Case",
+    "cat": "tech",
+    "price": 25,
+    "sizes": [
+      "iPhone 15",
+      "iPhone 16",
+      "iPhone 16 Pro",
+      "Samsung S24"
+    ],
+    "colors": [
+      "Matte"
+    ],
+    "colorsVi": [
+      "Matte"
+    ],
+    "desc": "A slim protective case with wraparound artwork. Select the exact device model.",
+    "descVi": "A slim protective case with wraparound artwork. Select the exact device model.",
+    "i": 5
+  },
+  {
+    "id": "studio-notebook",
+    "en": "Ideas in Colour",
+    "vi": "Ideas in Colour",
+    "cat": "stationery",
+    "price": 16,
+    "sizes": [
+      "A5 lined",
+      "A5 blank"
+    ],
+    "colors": [
+      "Cream"
+    ],
+    "colorsVi": [
+      "Cream"
+    ],
+    "desc": "A spiral notebook for sketches, thoughts and ideas worth keeping.",
+    "descVi": "A spiral notebook for sketches, thoughts and ideas worth keeping.",
+    "i": 6
+  },
+  {
+    "id": "art-cushion",
+    "en": "Soft Canvas Cushion",
+    "vi": "Soft Canvas Cushion",
+    "cat": "home",
+    "price": 32,
+    "sizes": [
+      "40 × 40 cm",
+      "45 × 45 cm"
+    ],
+    "colors": [
+      "Natural"
+    ],
+    "colorsVi": [
+      "Natural"
+    ],
+    "desc": "An art-print cushion with a removable cover. Demo price includes an insert.",
+    "descVi": "An art-print cushion with a removable cover. Demo price includes an insert.",
+    "i": 7
+  },
+  {
+    "id": "sticker-sheet",
+    "en": "Little Marks Stickers",
+    "vi": "Little Marks Stickers",
+    "cat": "stationery",
+    "price": 9,
+    "sizes": [
+      "A5 sheet"
+    ],
+    "colors": [
+      "Multicolour"
+    ],
+    "colorsVi": [
+      "Multicolour"
+    ],
+    "desc": "A sheet of playful art shapes for journals, laptops and gift wrapping.",
+    "descVi": "A sheet of playful art shapes for journals, laptops and gift wrapping.",
+    "i": 8
+  }
+]

@@ -1,0 +1,1 @@
+<?php get_header(); ?><section class="container section"><header class="page-intro"><h1>Explore <em>the stories.</em></h1></header><div class="story-grid"><?php if (have_posts()) while (have_posts()) { the_post(); get_template_part('template-parts/post-card'); } else echo '<p>There is nothing here yet.</p>'; ?></div><?php the_posts_pagination(); ?></section><?php get_footer(); ?>

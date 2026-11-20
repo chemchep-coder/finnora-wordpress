@@ -1,0 +1,17 @@
+/* Small, decorative companions; never cover a control or change card geometry. */
+.fin-design-art,.woocommerce ul.products li.product{position:relative}
+.fin-reindeer-mini{position:absolute;top:9px;right:9px;width:52px;height:61px;z-index:2;pointer-events:none;opacity:0;transform:translateY(9px) rotate(-5deg);transition:opacity .18s,transform .24s}
+.fin-reindeer-mini img{display:block!important;width:100%!important;height:100%!important;margin:0!important;aspect-ratio:auto!important;background:transparent!important;object-fit:contain!important;filter:drop-shadow(0 2px 2px #123d2d20)}
+.fin-character-active .fin-reindeer-mini{opacity:1;transform:translateY(0) rotate(0)}
+.fin-character-active .fin-reindeer-mini img{animation:fin-deer-hello .65s ease-out 1}
+.woocommerce ul.products li.product .fin-reindeer-mini{top:34px}
+.fin-builder-photo{position:relative;padding-right:116px}
+.fin-santa-photo{position:absolute;right:14px;top:14px;width:86px;height:98px;pointer-events:none;transform-origin:50% 65%}
+.fin-santa-photo img{display:block;width:100%;height:100%;object-fit:contain}
+.fin-santa-photo.is-photo-ready{animation:fin-santa-nod .85s ease-in-out 1}
+.fin-builder-photo.is-collapsed{padding-right:22px}
+.fin-builder-photo.is-collapsed .fin-santa-photo{display:none}
+@keyframes fin-deer-hello{0%,100%{transform:rotate(0)}40%{transform:rotate(-8deg)}70%{transform:rotate(4deg)}}
+@keyframes fin-santa-nod{0%,100%{transform:translateY(0) rotate(0)}30%,70%{transform:translateY(4px) rotate(5deg)}50%{transform:translateY(0) rotate(0)}}
+@media(max-width:650px){.fin-reindeer-mini{width:40px;height:47px;top:6px;right:6px}.fin-builder-photo{padding-right:18px}.fin-builder-photo h2{padding-right:64px;min-height:52px}.fin-santa-photo{width:59px;height:67px;right:12px;top:9px}.fin-builder-photo.is-collapsed h2{min-height:0;padding-right:0}}
+@media(prefers-reduced-motion:reduce){.fin-reindeer-mini{transition:none}.fin-character-active .fin-reindeer-mini img,.fin-santa-photo.is-photo-ready{animation:none}}

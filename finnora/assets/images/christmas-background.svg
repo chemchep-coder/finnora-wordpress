@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" fill="none">
+<defs><g id="pine" stroke="#FFFFFF" stroke-linecap="round"><path d="M0 0L265 75" stroke-width="3" opacity=".45"/><g stroke-width="7" opacity=".22"><path d="M30 9L12 48M30 9L64 0M58 16L35 63M58 16L99 2M88 25L67 79M88 25L131 10M120 34L104 94M120 34L163 18M154 44L146 104M154 44L196 29M190 54L187 111M190 54L230 41M222 63L230 112M222 63L263 53"/></g></g><g id="star" fill="#FFFFFF"><path d="M0-13L3-3L13 0L3 3L0 13L-3 3L-13 0L-3-3Z"/></g></defs>
+<use href="#pine"/><use href="#pine" transform="translate(0 150) rotate(-50)"/><use href="#pine" transform="translate(1440 0) scale(-1 1)"/><use href="#pine" transform="translate(1440 150) scale(-1 1) rotate(-50)"/>
+<g stroke="#FFFFFF" opacity=".8"><path d="M742 0V83M828 0V46M1327 0V105"/><circle cx="742" cy="111" r="27" fill="#D83238"/><circle cx="828" cy="69" r="22" fill="#D83238"/><circle cx="1327" cy="128" r="23" fill="#FFFFFF"/></g>
+<g stroke="#FFFFFF" stroke-width="3"><path d="M725 100L756 118M724 111L748 127M828 55V83M814 69H842M818 59L838 79M818 79L838 59"/></g><path d="M1327 111L1315 129H1321L1311 140H1343L1333 129H1339Z" fill="#123D2D"/>
+<g opacity=".8"><use href="#star" x="620" y="160"/><use href="#star" x="1235" y="256"/><use href="#star" x="85" y="520"/></g>
+<path d="M0 738Q95 710 175 738T350 739T530 744T710 737T890 741T1070 737T1250 740T1440 728V760H0Z" fill="#FFFFFF"/>
+</svg>

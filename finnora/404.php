@@ -1,0 +1,1 @@
+<?php get_header(); ?><section class="container empty-state"><h1>Looks like you took<br><em>a little detour.</em></h1><p>We could not find that page. There is still plenty to explore.</p><a class="button" href="<?php echo esc_url(home_url('/')); ?>">Back to home ↗</a></section><?php get_footer(); ?>

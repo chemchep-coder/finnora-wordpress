@@ -1,0 +1,12 @@
+<?php
+defined('ABSPATH') || exit;
+function fin_us_reference_sizes($sweat=false) {
+    $rows=[];
+    foreach (['S','M','L','XL','2XL','3XL'] as $i=>$size) $rows[$size]=['width'=>($sweat?20:18)+$i*2,'length'=>($sweat?26:27)+$i];
+    return $rows;
+}
+
+
+add_action('woocommerce_before_variations_form',function(){global $product;if(!$product||fin_experience_mode($product)!=='try')return;$sweat=$product->get_sku()==='FIN-studio-sweat';$rows=fin_us_reference_sizes($sweat);$id=wp_unique_id('fin-size-');?>
+<div class="fin-size-guide"><button type="button" class="fin-size-link" data-fin-size-open aria-haspopup="dialog">Size guide</button><dialog id="<?php echo esc_attr($id); ?>" aria-label="US unisex size guide"><header><h2>US unisex size guide</h2><button type="button" data-fin-size-close aria-label="Close size guide">×</button></header><p>Reference only — Gildan <?php echo $sweat?'18000 crewneck':'64000 T-shirt'; ?> US reference specification (2012). FINNORA has not confirmed this blank or supplier. This is not a universal US sizing standard.</p><p>Measure around the fullest part of your chest, keeping the tape level. Also measure your natural waist and hips for an overall fit check; these tops have no verified waist or hip chart yet. Height alone cannot determine size. For a reliable comparison, lay a garment you own flat and measure across the chest and from shoulder to hem. Garment width is not your body chest measurement.</p><div class="fin-size-table"><table><caption>Garment measurements · inches / centimeters</caption><thead><tr><th scope="col">Size</th><th scope="col">Flat chest width</th><th scope="col">Body length</th></tr></thead><tbody><?php foreach($rows as $size=>$r):?><tr><th scope="row"><?php echo esc_html($size);?></th><td><?php echo esc_html($r['width'].' in / '.round($r['width']*2.54,1).' cm');?></td><td><?php echo esc_html($r['length'].' in / '.round($r['length']*2.54,1).' cm');?></td></tr><?php endforeach;?></tbody></table></div><p>If between sizes, compare your preferred fit with an existing garment. XS has no verified reference in this chart. For mugs, cases, prints and other objects, use the product dimensions or device compatibility instead of clothing sizes.</p><p>Reference tolerance: chest width ±0.75 in; length ±1 in. <a href="https://apparelcdn.blob.core.windows.net/gsa-public/details/gildan-<?php echo $sweat?'18000':'64000';?>.pdf" target="_blank" rel="noopener">Manufacturer reference sheet ↗</a></p></dialog></div>
+<?php });

@@ -1,0 +1,244 @@
+[
+  {
+    "slug": "social-battery",
+    "name": "Social Battery",
+    "topics": [
+      "funny-quotes"
+    ],
+    "styles": [
+      "typography",
+      "minimal"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "colour-tee",
+      "studio-sweat",
+      "paint-mug"
+    ],
+    "description": "An original low-energy club design, with room for your own message."
+  },
+  {
+    "slug": "off-duty-goose",
+    "name": "Off-Duty Goose",
+    "topics": [
+      "funny-quotes",
+      "hobbies-identity"
+    ],
+    "styles": [
+      "doodle"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "colour-tee",
+      "canvas-tote",
+      "studio-notebook"
+    ],
+    "description": "A cheerful original goose taking a well-earned break."
+  },
+  {
+    "slug": "photo-story",
+    "name": "Photo Story",
+    "topics": [
+      "people-memories"
+    ],
+    "styles": [
+      "collage",
+      "minimal"
+    ],
+    "photo": true,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "art-poster",
+      "paint-mug",
+      "canvas-tote"
+    ],
+    "description": "Frame your own photo and add a name, place or moment."
+  },
+  {
+    "slug": "together-at-christmas",
+    "name": "Together at Christmas",
+    "topics": [
+      "people-memories",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "minimal"
+    ],
+    "photo": true,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-poster",
+      "paint-mug",
+      "canvas-tote"
+    ],
+    "description": "Your own family photo, a festive frame and a personal message."
+  },
+  {
+    "slug": "pet-monarch",
+    "name": "Pet Monarch",
+    "topics": [
+      "pets-animals"
+    ],
+    "styles": [
+      "portrait-art"
+    ],
+    "photo": true,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "art-poster",
+      "paint-mug",
+      "canvas-tote"
+    ],
+    "description": "Give your pet a playful crown in a manually composed photo frame. No AI portrait conversion is applied."
+  },
+  {
+    "slug": "festive-pet-club",
+    "name": "Festive Pet Club",
+    "topics": [
+      "pets-animals",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "retro"
+    ],
+    "photo": true,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "colour-tee",
+      "paint-mug",
+      "art-poster"
+    ],
+    "description": "Your pet photo in an original festive club frame."
+  },
+  {
+    "slug": "weekend-reader",
+    "name": "Weekend Reader",
+    "topics": [
+      "hobbies-identity"
+    ],
+    "styles": [
+      "line-art",
+      "minimal"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "canvas-tote",
+      "studio-notebook",
+      "paint-mug"
+    ],
+    "description": "An original book-and-coffee design for the slower chapters."
+  },
+  {
+    "slug": "coffee-code",
+    "name": "Coffee & Code",
+    "topics": [
+      "hobbies-identity",
+      "funny-quotes"
+    ],
+    "styles": [
+      "pixel",
+      "typography"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "colour-tee",
+      "paint-mug",
+      "sticker-sheet"
+    ],
+    "description": "A little coffee, a little code, and a message of your own."
+  },
+  {
+    "slug": "evergreen-lines",
+    "name": "Evergreen Lines",
+    "topics": [
+      "art-patterns",
+      "holidays-celebrations"
+    ],
+    "styles": [
+      "botanical",
+      "line-art"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "art-poster",
+      "paint-mug",
+      "canvas-tote"
+    ],
+    "description": "An original botanical tree drawing with an optional dedication."
+  },
+  {
+    "slug": "color-current",
+    "name": "Color Current",
+    "topics": [
+      "art-patterns"
+    ],
+    "styles": [
+      "abstract",
+      "patterns"
+    ],
+    "photo": false,
+    "text": false,
+    "christmas": false,
+    "products": [
+      "art-poster",
+      "phone-case",
+      "studio-notebook"
+    ],
+    "description": "An original flowing geometric artwork, ready to preview."
+  },
+  {
+    "slug": "gingerbread-wishes",
+    "name": "Gingerbread Wishes",
+    "topics": [
+      "holidays-celebrations",
+      "funny-quotes"
+    ],
+    "styles": [
+      "cartoon"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": true,
+    "products": [
+      "colour-tee",
+      "paint-mug",
+      "studio-notebook"
+    ],
+    "description": "An original gingerbread character and your holiday greeting."
+  },
+  {
+    "slug": "celebrate-you",
+    "name": "Celebrate You",
+    "topics": [
+      "holidays-celebrations",
+      "people-memories"
+    ],
+    "styles": [
+      "typography",
+      "minimal"
+    ],
+    "photo": false,
+    "text": true,
+    "christmas": false,
+    "products": [
+      "art-poster",
+      "paint-mug",
+      "canvas-tote"
+    ],
+    "description": "A bright original celebration motif for a name or milestone."
+  }
+]
