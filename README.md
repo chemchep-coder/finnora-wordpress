@@ -1,4 +1,4 @@
-# FINNORA Studio — WordPress theme 4.0.0
+# FINNORA Studio — WordPress theme 4.1.0
 
 Theme WordPress cho dự án học tập FINNORA: cửa hàng thời trang và quà tặng POD phong cách Christmas, giao diện tiếng Anh, forest green / white / Christmas red.
 
@@ -48,6 +48,7 @@ LICENSE.txt     Giấy phép mã nguồn
 
 ```sh
 php tests/merchant-readiness.php
+php tests/shopping-context.php
 ```
 
 Kiểm tra này không thay thế kiểm thử WordPress/WooCommerce, thiết bị di động, thanh toán hay giao nhận. PHP/CSS/JS đã được kiểm tra cục bộ trước commit đầu tiên.

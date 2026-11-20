@@ -74,11 +74,12 @@ function fin_shop_filters() {
     $category = sanitize_title(fin_input('fin_category'));
     if (!$category && is_product_category()) { $term = get_queried_object(); $category = $term->slug ?? ''; }
     $min = fin_input('min_price'); $max = fin_input('max_price');
-    ?><div class="fin-shop-layout"><aside class="fin-shop-sidebar"><details open><summary>Filter your favourites</summary><form class="fin-shop-filter-form" method="get" action="<?php echo esc_url(fin_shop_url()); ?>">
-    <label for="fin-filter-category">Product type</label><select id="fin-filter-category" name="fin_category"><option value="">All products</option><?php if (!is_wp_error($terms)) foreach ($terms as $term) : ?><option value="<?php echo esc_attr($term->slug); ?>" <?php selected($category, $term->slug); ?>><?php echo esc_html($term->name); ?></option><?php endforeach; ?></select>
+    ?><div class="fin-shop-layout"><aside class="fin-shop-sidebar"><details open><summary>Filter Products</summary><form class="fin-shop-filter-form" method="get" action="<?php echo esc_url(fin_shop_url()); ?>">
+    <?php foreach(fin_filter_context() as $key=>$value): ?><input type="hidden" name="<?php echo esc_attr($key); ?>" value="<?php echo esc_attr($value); ?>"><?php endforeach; ?>
+    <label for="fin-filter-category">Product type</label><select id="fin-filter-category" name="fin_category"><option value="">All products</option><?php if (!is_wp_error($terms)) foreach ($terms as $term) : ?><option value="<?php echo esc_attr($term->slug); ?>" <?php selected($category, $term->slug); ?>><?php $parent_name='';if($term->parent)foreach($terms as $parent_term)if($parent_term->term_id===$term->parent){$parent_name=$parent_term->name.' / ';break;}echo esc_html($parent_name.$term->name); ?></option><?php endforeach; ?></select>
     <fieldset><legend>Price range (<?php echo esc_html(get_woocommerce_currency()); ?>)</legend><div class="fin-price-range"><label>From<input type="number" name="min_price" min="0" step="0.01" inputmode="decimal" value="<?php echo esc_attr(is_numeric($min) ? $min : ''); ?>" placeholder="0"></label><label>To<input type="number" name="max_price" min="0" step="0.01" inputmode="decimal" value="<?php echo esc_attr(is_numeric($max) ? $max : ''); ?>" placeholder="Any"></label></div></fieldset>
     <?php if ($order = sanitize_key(fin_input('orderby'))) : ?><input type="hidden" name="orderby" value="<?php echo esc_attr($order); ?>"><?php endif; ?>
-    <button class="button" type="submit">Apply filters</button><a class="text-link" href="<?php echo esc_url(fin_shop_url()); ?>">Clear filters</a></form></details><p class="fin-filter-help">Choose a product type and price range. Open a piece to see its available sizes and colours.</p></aside><div class="fin-shop-results"><?php
+    <button class="button" type="submit">Apply Filters</button><a class="text-link" href="<?php echo esc_url(add_query_arg(fin_filter_context(),fin_shop_url())); ?>">Clear Filters</a></form></details><p class="fin-filter-help">Filter by product type and price. Open a product to see available colors and sizes.</p></aside><div class="fin-shop-results"><?php
 }
 // Start outside the loop so the filter remains reachable when there are zero results.
 add_action('woocommerce_before_main_content', function () { if (fin_is_product_archive()) $GLOBALS['fin_filter_shell'] = false; }, 15);
@@ -92,8 +93,20 @@ add_action('woocommerce_product_query', function ($query) {
     $tax_query[] = ['taxonomy' => 'product_cat', 'field' => 'slug', 'terms' => $category];
     $query->set('tax_query', $tax_query);
 });
-add_filter('woocommerce_product_single_add_to_cart_text', fn($text) => 'Add to bag');
+function fin_filter_context() {
+    $context=[];
+    $search=sanitize_text_field(fin_input('s'));
+    if($search!==''){$context['s']=$search;$context['post_type']='product';}
+    $collection=fin_input('fin_collection');
+    if(in_array($collection,['gifts','home-gifts'],true))$context['fin_collection']=$collection;
+    return $context;
+}
+add_filter('woocommerce_product_single_add_to_cart_text', fn($text) => 'Add to Bag');
 add_action('woocommerce_single_product_summary', function () {
     ?><div class="fin-product-guidance"><?php foreach (['delivery' => ['Delivery','This demo is not connected to production or shipping. Delivery estimates will be available when the store opens.'],'care' => ['Product care','Follow the care label on the actual product. Materials and printing methods may require different care.'],'returns' => ['Returns','A returns policy has not been activated for this demonstration. Contact the store before placing a real order.']] as $key => [$title,$default]) : ?><details><summary><?php echo esc_html($title); ?></summary><p><?php echo esc_html(fin_setting_text('fin_product_'.$key,$default)); ?></p></details><?php endforeach; ?><a class="text-link" href="<?php echo esc_url(fin_page_url('contact')); ?>">Need a hand? Contact us ↗</a></div><?php
 }, 45);
-add_filter('woocommerce_product_add_to_cart_text', function ($text, $product) { return $product->is_type('variable') ? 'Choose options' : $text; }, 10, 2);
+add_filter('woocommerce_product_add_to_cart_text', function ($text, $product) {
+    if($product->is_type('variable'))return 'Choose Options';
+    if($product->is_type('simple') && $product->is_purchasable() && $product->is_in_stock())return 'Add to Bag';
+    return $text;
+}, 10, 2);

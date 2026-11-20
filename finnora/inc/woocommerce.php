@@ -15,11 +15,21 @@ add_filter('woocommerce_add_to_cart_fragments', function ($fragments) {
     return $fragments;
 });
 add_action('woocommerce_before_shop_loop', function () {
-    $terms = get_terms(['taxonomy' => 'product_cat', 'hide_empty' => true, 'number' => 12]);
+    // Keep product types at one level; clothing subcategories live on Clothing pages.
+    $terms = get_terms(['taxonomy' => 'product_cat', 'hide_empty' => true, 'parent' => 0, 'number' => 12]);
     if (is_wp_error($terms)) return;
     echo '<nav class="filter-chips" aria-label="Product categories"><a href="' . esc_url(fin_shop_url()) . '">All products</a>';
     foreach ($terms as $term) echo '<a ' . (is_tax('product_cat', $term->term_id) ? 'aria-current="page" ' : '') . 'href="' . esc_url(get_term_link($term)) . '">' . esc_html($term->name) . '</a>';
     echo '</nav>';
+    if (function_exists('is_product_category') && is_product_category(['wear','gen-z-edit','fashion-tops','jerseys','layers','bottoms'])) {
+        $parent = get_term_by('slug','wear','product_cat');
+        $children = $parent ? get_terms(['taxonomy'=>'product_cat','parent'=>$parent->term_id,'hide_empty'=>true]) : [];
+        if (!is_wp_error($children) && $children) {
+            echo '<nav class="filter-chips fin-clothing-types" aria-label="Clothing styles">';
+            foreach ($children as $child) echo '<a '.(is_tax('product_cat',$child->term_id)?'aria-current="page" ':'').'href="'.esc_url(get_term_link($child)).'">'.esc_html($child->name).'</a>';
+            echo '</nav>';
+        }
+    }
 }, 5);
 // Keep product archive headers concise; category descriptions remain editable in admin.
 add_action('wp', function () {

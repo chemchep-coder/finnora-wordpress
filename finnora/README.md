@@ -1,4 +1,4 @@
-> Current release: FINNORA4.0.0. Read ../README.md for current installation, layout and demo limitations. The versioned notes below describe earlier releases.
+> Current release: FINNORA4.1.0. Read ../README.md for current installation, layout and demo limitations. The versioned notes below describe earlier releases.
 
 <!-- FINNORA 2.3: Appearance → Customize → FINNORA — Shopping layout controls headings, product count, homepage sections, and delivery/care/returns text. Category cards use WooCommerce categories and thumbnail images. -->
 # FINNORA Studio — Theme WordPress 2.3 — Shopping layout
